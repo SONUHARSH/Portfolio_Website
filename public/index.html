@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolia Website - Sonu Kumar</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/97961ac64f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+        <div class="container">
+                <nav>
+                        <h1>Fresher.</h1>
+                        <ul id="sidemenu">
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                        <p>Full Stack Developer.</p>
+                        <h1>Hi, I'm <span>Sonu</span><br>Kumar From India.</h1>
+                </div>
+        </div>
+</div>
+
+<!-----------------about--------------->
+<div id="about">
+        <div class="container">
+                <div class="row">
+                        <div class="about-col-1">
+                                <img src="images/user1.jpeg">
+                        </div>
+                        <div class="about-col-2">
+                                <h1 class="sub-title">About Me</h1>
+                                <p>Grounded and solution-oriented computer science undergrad with a wide variety of technical skills. 
+                                Adept at motivating self and others. Passionate about full-stack development 
+                                and looking for challenging role in a reputed IT organization.</p>
+
+                                <div class="tab-titles">
+                                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                                        <p class="tab-links" onclick="opentab('achievement')">Achievement</p>
+                                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="skills">
+                                      <ul>
+                                        <li><span>Languages.</span><br>Data structures, C++, Web Development, JavaScript, 
+                                                <br>Git, Node.js, React JS,  MYSQL, NOSQL, Mongo DB,
+                                                <br>JSON, DBMS, REST APIs, Computer Network, Python(Basic).</li>
+
+                                        <li><span>Tools.</span><br>GIT, GITHUB, VScode, Subline Text.</li>
+                                        <li><span>Soft Skills.</span><br>Leadership, Event Management, Writing,<br>Public Speaking.</li>
+                                      </ul>
+                                </div>
+                                <div class="tab-contents" id="projects">
+                                        <ul>
+                                        <li><span>Airline Booking System.</span><br>Using: (JavaScript, Node.JS, Express.JS, REST APIs, Databases, ORM, JSON, MySQL). 
+                                               <br> Features: Booking a flight, Fetching boarding pass, <br>adding reviews for flights, checking price 
+                                               <br>fluctuations and notifying users with email,<br> Authentication and authorization, Caching mechanism, 
+                                               <br> and Job Scheduling and Pagination.</li> 
+                                        
+                                        <li><span> Twitter application.</span><br>Using:(JavaScript, Node.JS, Express.JS, REST APIs, NoSQL, Mongo DB, ORM, JSON).
+                                                <br> Features: Addition and deletion of tweets, <br>Retweeting, Like and share, Commenting, 
+                                               <br> Follow users, Authentication and authorization. </li>
+
+                                        <li><span>Full Stack Ecommerce Website.</span><br>Using: JavaScript, ReactJS, NodeJS, API, MongoDB, CSS HTML. 
+                                               <br> Features: Login Register, User Profile, Forgot Password, 
+                                               <br>Admin & User Dashboard, User-Order, 
+                                                Create Product,<br>Update Delete-Product, Product Price, Payment Gateway.</li>
+
+                                        <li><span>Stock Price Prediction.</span><br> Using: Python, Machine Learning. 
+                                                <br>Features: Data Preparation and Visualization, 
+                                                <br>Test-train split, Training the model,Validating the fit, 
+                                                <br>Combining the actual and predicted and data to match.</li>      
+
+                                        <li><span>Vehicle-Parking.</span><br> Using: Python, Machine Learning. 
+                                                <br>Features: Entry Vehicle Number Type & Name, 
+                                                <br>Entry Owner Name Date & Time, Remove Entry 
+                                                 In Register, Different Type of Vehicles Parking Rate.</li>
+
+                                        <li><span>Car Driving Game.</span><br>Using: JavaScript, Html And CSS. 
+                                                <br>Features: Click Starts the Game, Show the score and <br>End the game touch a car to another car.</li>
+                                          <li><span>YouTube, Facebook and Instagram Clone.</span><br>Using: JavaScript, Html and CSS.</li>     
+                                        </ul>  
+                                </div>
+
+                                <div class="tab-contents" id="achievement">
+                                        <ul>
+                                           <li><span></span><br>- Solved 450+ DSA problems across various coding platforms.</li>
+                                           <li><span></span><br>- Ranked below 15 in Geeks for Geeks collage Chapter.</li>
+                                           <li><span></span><br>- 2 years teaching experience (10th).</li>
+                                        </ul>
+                                  </div>
+
+                                <div class="tab-contents" id="education">
+                                        <ul>
+                                                <li><span>Gurukula Kangri Vishwavidhyalaya</span><br>B.Tech - Computer Science & Engineering.
+                                                <br>Percentage: 72.00% (2019-2023).<br>Courses: Operating System, Data Structure, Analysis Of Algorithms,
+                                                <br> Databases, Computer Network, Blockchain.</li>
+                                        
+                                                <li><span>A.K.R.R College, Kotwa, East-Champaran</span><br>Intermedate Examination: Bihar Examination Board
+                                                <br>Percentage: 70.02% .<br>Course: Math, Physics, Chemistry</li>
+                                                <li><span>Sheodhar Anutha High School Kotwa, East-Champaran</span><br>Secondary School Examination: Bihar Examination Board.
+                                                <br>Percentage: 60.04%</li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<!------------services------------->
+<div id="services">
+        <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+
+                        <div>
+                                <i class="fa-solid fa-code"></i>
+                                <h2>Web Development</h2>
+                                <p>“A successful website does three things:
+                                        It attracts the right kinds of visitors.
+                                        Guides them to the main services or product you offer.
+                                        Collect Contact details for future ongoing relation.”</p>
+                                <a href="#">learn more</a>
+                        </div>
+                        <div>
+                                <i class="fa-solid fa-crop-simple"></i>
+                                <h2>Website Design</h2>
+                                <p>“Your website is the center of your digital eco-system, 
+                                        like a brick and mortar location, the experience matters once a customer enters,
+                                         just as much as the perception they have of you before they walk through the door.”</p>
+                                <a href="#">learn more</a>
+                        </div>
+                        <div>
+                                <i class="fa-brands fa-app-store-ios"></i>
+                                <h2>Software Development</h2>
+                                <p>“Most good programmers do programming not because they expect to get paid or 
+                                get adulation by the public, but because it is fun to program”.</p>
+                                <a href="#">learn more</a>
+                        </div>
+
+
+
+                </div>
+        </div>
+</div>
+
+<div id="portfolio">
+        <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                        <div class="work">
+                                <img src="images/work-1.png">
+                                <div class="layer">
+                                        <h3>Social Media App</h3>
+                                        <p>The app connects you yo the talented people around the world.
+                                        Download it from play store.</p>
+                                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                        </div>
+                        <div class="work">
+                                <img src="images/work-2.png">
+                                <div class="layer">
+                                        <h3>Music App</h3>
+                                        <p>The app connects you yo the talented people around the world.
+                                        Download it from play store.</p>
+                                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                        </div>
+                        <div class="work">
+                                <img src="images/work-3.png">
+                                <div class="layer">
+                                        <h3>Online Shopping App</h3>
+                                        <p>The app connects you yo the talented people around the world.
+                                        Download it from play store.</p>
+                                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                        </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+</div>
+
+<!---------------------contact----------------->
+<div id="contact">
+        <div class="container">
+                <div class="row">
+                        <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+                                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sonu4004kumar@gmail.com</p>
+                                <p><i class="fa-sharp fa-solid fa-phone"></i>+91 9631575397</p>
+                                <div class="social-icons">
+                                        <a href="https://www.linkedin.com/in/sonu-kumar-3b82731b2/"><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href="https://github.com/SONUHARSH"><i class="fa-brands fa-github"></i></a>
+                                        <a href="https://instagram.com/_kr__sonu?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="https://twitter.com/kumar_sonu02?t=SoNueP-BRdOta24cA0fuTQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                                <a href="images/Sonu_Resume.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                                <form>
+                                        <input type="text" name="Name" placeholder="Your Name" required>
+                                        <input type="email" name="Email" placeholder="Your Email" required>
+                                        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                                        <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                                
+                        </div>
+                </div>
+        </div>
+        <div class="copyright">
+                <p>Copyright @ Sonu. Made With <i class="fa-solid fa-heart"></i>by Kumar Sonu</p>
+        </div>
+</div>
+        
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+                for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+
+<script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+                sidemeu.style.right = "0";
+        }
+        function closemenu(){
+                sidemeu.style.right = "-200px";
+        }
+
+
+</script>
+</body>
+</html>
